@@ -1,37 +1,64 @@
 <!DOCTYPE html>
+<!--
+    Author: Christopher Brown
+    Date: May 7, 2024
+    File: index.html
+    Description: Homepage for the personal portfolio website.
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            padding: 20px;
-        }
-        header img {
-            width: 100px;
-            height: auto;
-        }
-        main {
-            padding: 20px;
-        }
-    </style>
+    <title>My Portfolio | Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <img src="logo.png" alt="Logo">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <h1>My Portfolio</h1>
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+    
+    <!-- Main Content Section -->
     <main>
-        <h1>Welcome to my website!</h1>
-        <p>Visit us at: <a href="http://example.com">example.com</a></p>
+        <section>
+            <h2>Welcome to My Portfolio!</h2>
+            <p>
+                Hello! I'm Christopher Brown, a passionate web developer with a knack for creating beautiful and user-friendly websites.
+            </p>
+        </section>
+        <article>
+            <h3>Featured Projects</h3>
+            <ul>
+                <li>Project A: Description</li>
+                <li>Project B: Description</li>
+                <li>Project C: Description</li>
+            </ul>
+        </article>
     </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Use</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <address>Contact: <a href="mailto:test@example.com">test@example.com</a></address>
+    </footer>
 </body>
 </html>
